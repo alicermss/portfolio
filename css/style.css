@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    color: rgb(237, 152, 152);
+    background: none;
+    
+}
+
+
+/*header*/
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 7%;
+    
+}
+
+.ft-header img{
+   width: 100%;
+   border-radius: 100%;
+   justify-content: right;
+}
+
+.ft-header{
+    display: flex;
+    justify-content: right;
+}
+
+#titulo-header h1{
+text-align: left;
+color:antiquewhite;
+font-size: 100px;
+font-family:'Times New Roman', Times, serif;
+
+}
+
+.botao{
+    margin-top: 40%;
+    background-color: black;
+    border: 1px solid antiquewhite;
+    border-radius: 20px;
+    width: 150%;
+    height: 4vh;
+    margin: 50%;
+}
+
+.botao a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+.insta-header{
+    flex-direction: column;
+    color: antiquewhite;
+}
+
+/*nav*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+    margin:0;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none; 
+}
+
+
+nav ul li a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-size: 20px;
+  
+}
+
+
+/*sobre*/
+#sobre{
+    padding: 20px;
+    background-color: black;
+}
+
+.quem-sou h1{
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 70px;
+    margin-top: 5%;
+    margin: 5%;
+}
+
+.quem-sou p{
+    color:#fff;
+    margin-top: 1%;
+    margin: 7%;
+}
+
+hr{
+    display:flex;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
