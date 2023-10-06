@@ -12,25 +12,28 @@ body{
 }
 
 
-/*header*/
+/*HEADER*/
 header{
     text-align: center;
     display: flex;
     flex-direction: row;
     background-color: black;
-    padding: 7%;
+    padding: 3%;
     
 }
 
 .ft-header img{
+   display:flex;
+   margin-top: 0px;
    width: 100%;
-   border-radius: 100%;
-   justify-content: right;
+   border-radius: 100px;
 }
 
 .ft-header{
-    display: flex;
-    justify-content: right;
+    display:flex;
+    text-align: right;
+    margin: 100px;
+    margin-top: 0px;
 }
 
 #titulo-header h1{
@@ -38,22 +41,31 @@ text-align: left;
 color:antiquewhite;
 font-size: 100px;
 font-family:'Times New Roman', Times, serif;
+margin: 50%;
+
 
 }
 
+.header hr{
+    display:flex;
+    text-align: left;
+    margin-top: 0em;
+}
+
 .botao{
-    margin-top: 40%;
     background-color: black;
     border: 1px solid antiquewhite;
     border-radius: 20px;
-    width: 150%;
-    height: 4vh;
+    width: 100%;
+    height: 6vh;
     margin: 50%;
+    margin-top: 0%;
 }
 
 .botao a{
     text-decoration: none;
     color: antiquewhite;
+    
 }
 
 
@@ -62,7 +74,7 @@ font-family:'Times New Roman', Times, serif;
     color: antiquewhite;
 }
 
-/*nav*/
+/*NAV*/
 nav{
     display: flex;
     flex-direction: row;
@@ -72,7 +84,10 @@ nav{
     padding: 20px;
     width: 100%;
     margin:0;
-    
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: #fff;
 }
 
 nav ul {
@@ -91,7 +106,7 @@ nav ul li a{
 }
 
 
-/*sobre*/
+/*SOBRE*/
 #sobre{
     padding: 20px;
     background-color: black;
@@ -119,4 +134,87 @@ hr{
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
+}
+
+/*PROJETOS*/
+#projetos h1{
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 70px;
+    margin-top: 5%;
+    margin: 5%;
+    text-align: center;
+}
+
+.row{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    padding: 10px;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#projetos img{
+    border-radius: 200px;
+    width: 200;
+    height: 200px;
+    box-shadow: 7px 7px 10px 0px rgb(199, 182, 159);
+    border: 3px solid black ;
+    
+}
+
+#projetos p{
+    color: antiquewhite;
+    text-align: left;
+    margin: 70px;
+    margin-top: 10px;
+}
+
+/*HABILIDADES*/
+
+#habilidades h1{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-size: 70px;
+    margin-top: 5%;
+    margin: 60px;
+}
+
+.imgs-h img{
+    display: inline-block;
+    text-align:right;
+    margin: 20px;
+    margin-top: 20px;
+    box-shadow: 7px 7px 10px 0px rgb(199, 182, 159);
+    border-radius: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+
+/*CONTATOS*/
+
+#contatos{
+    background-color: bisque;
+     padding: 3%;
+}
+#contatos h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-size: 70px;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+#contatos h2{
+    text-align: center;
+    font-family:'Arial';
+    color: black;
+    font-size: 20px;
+    margin-top: 0px;
 }
