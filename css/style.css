@@ -5,12 +5,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-body{
-    color: rgb(237, 152, 152);
-    background: none;
-    
-}
-
 
 /*HEADER*/
 header{
@@ -49,7 +43,7 @@ margin: 50%;
 .header hr{
     display:flex;
     text-align: left;
-    margin-top: 0em;
+    margin-top: 0px;
 }
 
 .botao{
@@ -74,7 +68,7 @@ margin: 50%;
     margin-top: 0px;
 }
 .insta-header a{
-    
+    margin-top: 0px;
     color: antiquewhite;
 }
 
@@ -108,6 +102,11 @@ nav ul li a{
     font-size: 20px;
 }
 
+nav ul li a:hover{
+    color:black;
+    border-bottom: 2px solid black
+
+}
 
 /*SOBRE*/
 #sobre{
@@ -125,9 +124,10 @@ nav ul li a{
 
 .quem-sou p{
     color:#fff;
-    margin-top: 1%;
     margin: 7%;
-    text-align: center;
+    text-align: left;
+    margin-top: 0px;
+    font-size: 25px;
 }
 
 hr{
@@ -141,6 +141,13 @@ hr{
     align-items: left;
 }
 
+.quem-sou img{
+    height: 30%;
+    width: 30%;
+    border-radius: 250px;
+    justify-content: right;
+   
+}
 /*PROJETOS*/
 
 
@@ -169,14 +176,13 @@ hr{
 .projetos img:hover{
     transform: scale3d(1.1, 1.1, 1);
     transition: 0.5s;
-
 }
 
 
 
 #container img{
     border-radius: 200px;
-    width: 200;
+    width: 400px;
     height: 200px;
     box-shadow: 7px 7px 10px 0px rgb(199, 182, 159);
     border: 3px solid black ;
